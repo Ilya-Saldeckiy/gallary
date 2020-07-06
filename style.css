@@ -1,0 +1,37 @@
+@media screen and (min-width:320px) and (max-width:860px) {
+ .container{
+    padding-left: 12%;
+ }
+ .gallary_image{
+    width: 100px;
+ }
+}
+
+html{
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+
+.gallary_background{
+    background-color: #FFDAB9;
+}
+
+.container{
+    width: 100%;
+    padding-top: 100px;
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.gallary_image{
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
